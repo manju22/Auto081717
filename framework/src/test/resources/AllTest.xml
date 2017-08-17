@@ -1,0 +1,10 @@
+<suite name="RxRSuite"  thread-count="1"
+	verbose="1">
+
+	<test name="RxRAutomationSuite" junit="false" preserve-order="true">
+		<classes>
+			<class name="framework.FrameworkRunner" />
+		</classes>
+	</test>
+
+</suite>

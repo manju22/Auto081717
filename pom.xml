@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+	    <groupId>rxrenewal.automation</groupId>
+		<artifactId>parent</artifactId>
+		<version>1.0-SNAPSHOT</version>
+    </parent>
+
+	<packaging>pom</packaging>
+	<groupId>rxrenewal.ui.automation</groupId>
+	<artifactId>UI</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<name>${project.artifactId}</name>
+	<description>This pom acts as the parent pom for the entire UI automation</description>
+
+	<modules>
+		<module>framework</module>
+	</modules>
+
+</project>

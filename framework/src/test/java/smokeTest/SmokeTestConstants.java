@@ -1,0 +1,248 @@
+package smokeTest;
+
+public class SmokeTestConstants {
+
+    public static final String userName = "//*[@id='username-input']";
+    public static final String password = "//*[@id='password-input']";
+    public static final String Login_Button = "//*[@id='login-button']";
+    public static final String RxMSHome_Store_Number = "//*[@id='pharmacy-information-card']/md-card-content/div[2]/div[1]/h5[1]/a";
+    public static final String Dashbord_MenuButton = "//*[@id='main-left-sidenav-button-Prescriber']/div";
+    public static final String home_Button = "	//*[@id='main-left-sidenav-burger-menu']/md-list/md-list-item[1]";
+    public static final String Patient_LeftMenuButton = "//*[@id='main-left-sidenav-button-Patient']";
+    public static final String Patient_LastName = "//*[@id='input-lname-patient']";
+    public static final String Patient_FirstName = "//*[@id='input-fname-patient']";
+    public static final String Patient_Phonenumber = "//*[@id='input-phone-patient']";
+    public static final String Patient_DateOfBrith = "//*[@id='input_79']";
+    public static final String Patient_SearchButton = "//*[@id='patient-submit']";
+    public static final String Patient_ViewButton = "//*[@id='patient-view-button']";
+    public static final String Intake_RxButton = "//*[@id='patient-view-button-bar-button-intake']";
+    public static final String Rx_FinishButton = "//*[@id='scanrx-button-finish']";
+    public static final String DataEntry_RightMenuButton = "//*[@id='main-right-sidenav-burger-menu-DE']/div[2]/span[1]";
+    public static final String DataReview_RightMenuButton = "//*[@id='main-right-sidenav-burger-menu-DR']/div[2]/span[1]";
+    public static final String Prescriber_SelectButton = "//*[@id='main-data-prescriber-sidenav-button-select']";
+    public static final String Prescriber_LastName = "//*[@id='prescriber-information-card']//input[@id='last-name']";
+    public static final String Prescriber_FirstName = "//*[@id='prescriber-information-card']//input[@id='first-name']";
+    public static final String NEW_PRESCRIBER_LAST_NAME="//*[@id='rxms-main-container']/ng-outlet/rxms-prescription/form/md-sidenav/rxms-rx-prescriber-search-sidenav//*[@id='last-name']";
+    public static final String NEW_PRESCRIBER_FIRST_NAME="//*[@id='rxms-main-container']/ng-outlet/rxms-prescription/form/md-sidenav/rxms-rx-prescriber-search-sidenav//*[@id='first-name']";
+    public static final String Prescriber_Phonenumber = "//*[@id='phone']";
+    public static final String Prescriber_NPIDEA = "//*[@id='npidea']";
+    public static final String Product_OriginalDate = "//*[@id='original-date']";
+    public static final String Product_DAW = "//*[@id='prescription-rx-product-create-form']/div[1]/md-input-container[2]//*[starts-with(@id,'input_')]";
+    //public static final String Product_Substitute = "//*[@id='prescription-rx-product-create-form']/div[1]/md-input-container[3]//*[starts-with(@id,'input_')]";
+    public static final String ViewSize_CheckBox = "//*[@id='prescription-rx-product-create-form']/div[2]/div/md-checkbox[1]";
+    public static final String ViewSizeManufacturer_CheckBox = "//*[@id='prescription-rx-product-create-form']/div[2]/div/md-checkbox[2]";
+    public static final String DrugName_Field = "//*[@id='input-prescribed-product']";
+    public static final String DispensedDrug_Field="//*[@id='dispensed-product-menu']";
+    public static final String DrugExpiryDate_Field = "//*[@id='drug-exp-date']";
+    public static final String Quantity_field = "//*[@name='qtyPrescribed']";
+    public static final String Quantity_disp = "//*[@name='qtyDispensed']";
+    public static final String Directions_field = "//*[@name='directions']";
+    public static final String Days_Supply = "//*[@name='daysSupply']";
+    public static final String Refills_field = "//*[@id='number-refill']";
+    public static final String RxExpiration_date = "//*[@id='refill-exp-date']";
+    public static final String open_prescriber = "//*[@id='prescriber-info-button-openprescriber']/md-icon";
+    public static final String Open_Product = "//*[@id='product-information-expand-button']";
+    public static final String Update_Patient_PhoneNumber = "//*[@id='patient-add-demo-info-input-phone-0']";
+    public static final String Updated_Patient_Phonenumber = "//*[@id='patient-view-form']/md-card[1]/div[2]/div[1]/div[2]/div[1]/div[1]";
+    public static final String Update_AddressLine1 = "//*[@id='input-address1']";
+    public static final String View_address_Line = "//*[@id='patient-view-form']/md-card[1]/div[2]/div[1]/div[1]/div[2]";
+    public static final String View_approximate_weight = "//*[@id='patient-view-form']/md-card[1]/div[2]/div[3]/div/div[2]";
+    public static final String Text_approximate_weight = "//*[@id='input-weight']";
+    // public static final String Open_payment = "//*[@id='product-info-button-openproduct']/span";
+    // public static final String DE_FinishButton = "//*[@id='main-data-entry-button-toolbar-finish']";
+    public static final String Patient_AccceptButton = "//*[@id='dr-patient-accept']";
+    public static final String Prescriber_AcceptButton = "//*[@id='prescriber-review-buttons']/button[1]";
+    public static final String Product_AcceptButton = "//*[@id='product-review-buttons']/button[1]";
+    public static final String RxMS_logoutButton = "//*[@id='main-left-sidenav-button-logout']/div[1]/md-icon";
+    public static final String LogoutAlert_button = "//*[@id='bottom-tray']/md-toolbar/div/ng-transclude/button[1]";
+    public static final String this_device_button_logout_cssSelector = "button[aria-label='LOGOUT-POPUP.ACTIONS.THIS-DEVICE.ARIA-LABEL']";
+  
+    
+    public static final String Prescriber_ClearFields = "//*[@id='prescription-search-prescriber-button-clearfield']";
+    public static final String PrescriberState_DropDown = " //*[@id='state-select']";
+    public static final String Select_NoState = "//*[@id='select_option_64']";
+    public static final String State_Drpdwn = "//*[@id='select_value_label_62']";
+    public static final String DR_ALERT_OK_BTN = "//*[@id='main-data-entry-button-toolbar-cancel-confirm']/md-dialog-actions/button[1]";
+    //public static final String Product_result = "//span[contains(text(),'QUINDAL')]";
+    //*[@id="main-data-entry-button-toolbar-cancel-confirm"]/md-dialog-actions/button[1]
+    public static final String Open_payment = "//*[@id='payment-information-expand-button']";
+    //*[@id="payment-info-button-openedpayment"]
+    public static final String Open_payment2 = "//*[@id='payment-info-button-openedpayment']";
+    public static final String Payment_Dropdown = "//*[@id='open-payment-panel']";
+    public static final String Cash_option = "//button[contains(text(),'Cash')]";
+    public static final String DE_FinishButton = "//*[@id='prescription-finish-button']";
+    public static final String DR_FINISH = "//*[@id='prescription-finish-button']";
+    public static final String DR_ProductUpdate = "//*[@id='dr-product-search']";
+    public static final String DR_ProductDirections = "//*[@id='directions']";
+    public static final String DR_PrescriberField = "//*[@id='main-data-rewiew-content']/div/div[2]/div/md-card/div[2]/div[1]/rxms-data-review-prescriber/div/div[1]/div/div[1]";
+    public static final String DR_ProductName = "//*[@id='input-prescribed-product']";
+    public static final String DR_PatientName = "//*[@aria-label='Name Patient Information']";
+    public static final String DR_PrescriberName = "//*[@id='main-data-rewiew-divcontainer']/div[2]/div[2]/div/fieldset/div/div[1]/rxms-data-review-prescriber/div/div[1]/div/div[1]";
+    public static final String DE_FunctionPopup_cancel = "//*[@id='dialog-button-cancel']";
+    // public static final String rems_ProductResult = "//span[contains(text(),'PROLASTIN')]";
+    public static final String productChange_Button = "//*[@id='changebtnid']";
+    public static final String productSubstitute_Field = "//*[@id='prescription-rx-product-create-form']/div[1]/md-input-container[3]//*[starts-with(@id,'input_')]";
+
+    public static final String drugSelect_dropdown = "//*[@id='select_value_label_57']";
+    public static final String radio_pickuplater = "//*[@id='pickup-later-button-date-0']/div/span[1]";
+    public static final String date_latest = "//*[@id='scanrx-radio-pickup']";
+    public static final String pickup_date = "//*[@id='pickup-later-button-date-3']/div/span[2]";
+    public static final String DR_ValidationPopupOkButton = "//*[@id='main-data-review-popup-validate-button-ok']";
+    public static final String DR_Validation_popup = "//*[@id='accept-popup']";
+    public static final String DR_Validation_message = "//*[@id='dialogContent_accept-popup']/div/div";
+    public static final String radio_Waiting_Button = " //*[@id='scanrx-radio-waiting']";
+    public static final String radio_Scan_Button = "//*[@id='scanrx-radio-scan']";
+
+    public static final String drug_LeftMenuButton = "  //*[@id='main-left-sidenav-button-Drug']";
+    public static final String drug_search_field = "//*[@id='search-text']";
+    public static final String drugSearch_Button = "//*[@id='product-search-button-search']";
+    public static final String drug_results = "//*[@id='scrollbar-table-product-result']/div[1]/div/div[1]/div";
+    public static final String drug_CoreDrugInfo = "//*[@id='product-details']";
+
+    public static final String plan_LeftMenuButton = "//*[@id='main-left-sidenav-burger-menu']/md-list/md-list-item[5]";
+    public static final String planName_searchfield = "//*[@id='input-plan-name-plan']";
+    public static final String plan_searchButton = "//*[@id='plan-search-button-search']";
+    public static final String plan_results = "//*[@id='plan-row-0']/div[4]";
+    public static final String plan_rows = "//*[@id='plan-search']/table/tbody/tr";
+
+    public static final String patientOrderStatus_LefttMenuButton = "//*[@id='main-left-sidenav-button-PatientOrderStatus']";
+    public static final String patientOrderStatuts_patientSearchField = "//*[@id='patient-order-status-form']/div[1]/md-input-container[1]/input";
+    public static final String patientOrderStatus_patientSearchButton = "//*[@id='patient-order-status-button-search']";
+    public static final String patientOrderStatus_Table = "//*[@id='patient-order-status-table']";
+
+    public static final String prescriberSearch_LeftSideNavButton = "//*[@id='main-left-sidenav-burger-menu']/md-list/md-list-item[4]";
+    public static final String prescriberSearch_FirstName = "//*[@id='first-name']";
+    public static final String prescriberSearch_LastName = "//*[@id='last-name']";
+    public static final String prescriberSearch_SearchButton = "//*[@id='prescriber-search']";
+    //public static final String prescriberSearch_StateDropDown="//*[@id='prescriber-search-form']/div/md-input-container[5]";
+    public static final String prescriberSearch_StateResults = "//*[contains(@id,'select_option_')]";
+    public static final String prescriber_table="//*[@id='prescriber-search-list']/table";
+    public static final String prescriberSearch_Results = "//*[@id='prescriber-search-list']/table/tbody/tr";
+    public static final String logout_Button = " //*[@id='main-left-sidenav-button-logout']";
+    public static final String login_card = "//*[@id='login-card']";
+    public static final String patientSearchPageTitle = "//*[@id='rxms-main-container']/ng-outlet/rxms-patient-search-form/div/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String patient_table = "//*[@id='patient-list']";
+    public static final String RxMSHome_PharmacyInformationCard = "//*[@id='pharmacy-information-card']";
+    public static final String intakeMethodTitle = "//*[@id='intake-dialog']/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String drugSearchPageTitle = "//*[@id='rxms-main-container']/ng-outlet/rxms-product-search/div/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String planSearchPageTitle = "//*[@id='rxms-main-container']/ng-outlet/rxms-plan-base/div/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String patientOrderStatusPageTitle = "//*[@id='rxms-main-container']/ng-outlet/rxms-patient-order-status/div/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String DataReviewPageTitle = "//*[@id='rxms-main-container']/ng-outlet/rxms-prescription/form/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String prescriberSearchPageTitle = "//*[@id='prescriber-search-tray']/md-toolbar/div/span[1]";
+    public static final String patientOrderStatus_Alert_OK_Button = "//*[@id='main-data-entry-button-toolbar-cancel-confirm']/md-dialog-actions/button[1]";
+    public static final String intakeMethod_CancelButton = "//*[@id='scanrx-button-cancel']";
+    public static final String DENumberofTasks = "//*[@id='main-right-sidenav-burger-menu-DE']/div[2]/span[1]";
+    public static final String DRNumberofTasks = "//*[@id='main-right-sidenav-burger-menu-DR']/div[2]/span[1]";
+    public static final String fillingTaskNumber = "//*[@id='main-right-sidenav-burger-menu-FILL']/div[2]/span[1]";
+    public static final String Radio_phone = "//*[@id='scanrx-radio-phone']";
+    public static final String Radio_fax = "//*[@id='scanrx-radio-fax']";
+    public static final String CETaskNumber = "//*[@id='main-right-sidenav-burger-menu-CE']/div[2]/span[1]";
+    //public static final String CE_selectAll_TherapyReview = "//*[@id='select-all']/div[2]/ng-bind-html";
+    public static final String CE_selectAll_TherapyReview = "//*[@id='select-all']";
+    public static final String CE_OverrideButton = "//*[@id='override-button']";
+    public static final String CE_MED_HISTORY = "//*[@id='tabs-1']/div";
+	public static final String CE_MED_HISTORY_DATA = "//*[@id='rx-history-prodname-0']";
+	public static final String CE_CLINICAL_HISTORY = "//*[@id='tabs-2']/div";
+	public static final String CE_CLINICAL_HISTORY_DATA = "//*[@id='clinical-history-item-list-0']/div[1]/md-list-item[1]";
+	public static final String CE_CLINICAL_HISTORY_NO_DATA = "//*[@id='div-rx-entry']/md-content/div[2]/md-content/rxms-clinical-history/div/div[3]/span";
+	public static final String CE_Interaction = "//*[@id='tabs-0']/div/ng-bind-html";
+    public static final String FillingTask_Message = "md-dialog-content-body";
+    public static final String FillingTask_PopupOkButton = "md-confirm-button";
+    public static final String CE_Alert_Yes_Button = "//*[@id='main-data-entry-button-toolbar-cancel-confirm']/md-dialog-actions/button[1]";
+    public static final String No_Task_Alert_Button = "md-confirm-button";
+    public static final String DE_CancelButton = "//*[@id='go-to-dashboard-cancel-button']";
+    public static final String DE_Cancel_Alert_Yes_Btn = "//*[@id='main-data-entry-button-toolbar-cancel-confirm']/md-dialog-actions/button[1]";
+    //*[@id="main-data-entry-button-toolbar-cancel-confirm"]/md-dialog-actions/button[1]
+    public static final String CE_Cancel = "//*[@id='cancel-button']";
+    public static final String CE_StopCurrentTassk_OkButton = "//*[@id='dialog-button-confirm']";
+    public static final String productVerificationPageTitle = "//*[@id='div-rx-entry']/ng-outlet/rxms-manual-entry/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String cancelAlertMessage = "//*[@id='dialogContent_main-data-entry-button-toolbar-cancel-confirm']";
+    public static final String CancelAlert_NoButton = "//*[@id='main-data-entry-button-toolbar-cancel-confirm']/md-dialog-actions/button[2]";
+    public static final String PV_NumberofTasks = "//*[@id='main-right-sidenav-burger-menu-PV']/div[2]/span[1]";
+    public static final String PV_Taskboard = "//*[@id='main-right-sidenav-burger-menu-PV']";
+    public static final String DE_backButton = "//*[@id='back-button-data-entry']/md-icon";
+    public static final String DR_backButton = "//*[@id='back-button-data-review']/md-icon";
+    public static final String DR_Cancel = "//*[@id='dr-form-cancell']";
+    public static final String PLAN_LINK = "//*[@id='main-left-sidenav-button-Plan']/div[2]";
+
+    //Pirus Team- Plan search navigation
+    public static final String PLAN_SEARCH_TEXT = "//*[@id='rxms-main-container']/ng-outlet/rxms-plan-search/div/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String BIN_TEXTFIELD = "//*[@id='input-bin-plan']";
+    public static final String PCN_TEXTFIELD = "//*[@id='input-pcn-plan']";
+    public static final String PLANID_TEXTFIELD = "//*[@id='input-planid-plan']";
+    public static final String PLANNAME_TEXTFIELD = "//*[@id='input-plan-name-plan']";
+    public static final String SEARCH_BUTTON = "//*[@id='plan-search-button-search']";
+    public static final String PLAN_SEARCH_DETAILS = "//*[@id='rxms-main-container']/ng-outlet/rxms-plan-search/div/div[3]/ng-outlet/rxms-plan-search-results/div/div/div[2]/div/md-content";
+    //NEW CONSTANTS
+    public static final String NoTasks_Alert_ok_btn = "/html/body/div[3]/md-dialog/md-dialog-actions/button";
+    //*[@id="main-data-entry-button-toolbar-cancel-confirm"]/md-dialog-actions/button[1]
+    public static final String NoTasks_Alert_ok_btn_className = "md-confirm-button";
+    //public static final String productVerificationPageTitle = "//*[@id='div-rx-entry']/ng-outlet/rxms-manual-entry/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String POS_patientNames = "//*[starts-with(@id,'patient-0')]";
+    public static final String POS_singlePrescription = "//*[starts-with(@id,'single-prescription-')]";
+    public static final String POS_DonutChart = "//*[@id='dialogContent_donut-popup-dialog']";
+    public static final String POS_DE_HyperLink = "//*[@id='dialogContent_donut-popup-dialog']/div/rxms-donut-chart/rxms-donut-chart-data-entry/button";
+    public static final String patient_OrderStatus_LeftMenuButton = "//*[@id='main-left-sidenav-burger-menu']/md-list/md-list-item[6]";
+    public static final String patientOrder_phoneNumber = "//*[@id='patient-order-status-input-phone']";
+    public static final String POS_DR_HyperLink = "//*[@id='dialogContent_donut-popup-dialog']/div/rxms-donut-chart/rxms-donut-chart-data-review/button";
+    public static final String POS_CE_Hyperlink = "//*[@id='dialogContent_donut-popup-dialog']";
+    public static final String POS_CE_disabled_Hyperlink = "//*[@id='dialogContent_donut-popup-dialog']/div/rxms-donut-chart/rxms-donut-chart-clinical/button";
+    public static final String POS_delete_rx_Button = "//*[@id='patient-order-status-button-delete-rx']";
+    public static final String POS_drug_NDC = "//*[@id='drug-ndc']";
+    public static final String POS_drug_UPC = "//*[@id='drug-upc']";
+    public static final String POS_drug_back_Button = "//*[@id='back-button-drug-details']/md-icon";
+    public static final String CE_Rxnumber = "//*[@id='rx-number']";
+    public static final String DonutChartCancelButton = "//*[@id='donut-popup-dialog']/md-toolbar/div/button";
+    public static final String POS_rxnumber_refillnum = "//*[@id='refills']";
+    public static final String rxDetailsCancelButton = "//*[@id='close-button']/md-icon";
+    
+    public static final String patientSearch_rows = "//*[contains(@id,'patient-bk-')]";
+    public static final String patientSearch_patientname = "//*[contains(@id,'patient-bk-')]/div[1]";
+    public static final String patientSearch_dob = "//*[contains(@id,'patient-bk-')]/div[2]";
+    public static final String patientSearch_PhoneNumber = "//*[contains(@id,'patient-bk-')]/div[4]";
+    public static final String logout_alerttray = "//*[@id='bottom-tray']";
+    public static final String patient_DateOfBrith = "//*[@id='patient-datepicker']";
+    public static final String Patient_ = "//*[@id='patients-results-external-div']/div/div/div[1]/span[1]/strong";
+    public static final String PrescriberSearch_stateSelectDrpDown = "//*[contains(@class,'md-select-icon')]";
+    public static final String PrescriberSearch_stateNullValueSelector = "md-option.md-ink-ripple[value='']";
+    public static final String prescriberSearch_StateDropDown = "//*[@id='prescriber-information-card']//*[contains(@class,'md-select-icon')]";
+    public static final String POS_deleteRxButtononAlert = "//*[@id='dialog-button-confirm']";
+    public static final String DE_drug_searchResults = "//md-autocomplete-parent-scope/span[1]";
+    public static final String Prescriber_searchButton = "//*[@id='prescriber-information-card']//*[@id='prescription-rx-prescriber-search-button-search']";
+    public static final String DataEntryPageTitle = "//*[@id='rxms-main-container']/ng-outlet/rxms-prescription/form/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public  static final String PATIENT_REGISTRATION_PAGE = "//*[@id='patient-stepper-dialog']/rxms-secondary-toolbar/md-toolbar/div/span[1]";
+    public static final String PATIENT_REGISTRATION_PAGE_FIRST_NAME = "//*[@id='patient-add-demo-info-first-name']";
+    public static final String PATIENT_REGISTRATION_PAGE_LAST_NAME = "//*[@id='input-lname']";
+    public static final String PATIENT_REGISTRATION_PAGE_PHONE_NUMBER = "//*[@id='patient-add-demo-info-input-phone-0']";
+    public static final String PATIENT_REGISTRATION_PAGE_DOB = "//*[@id='patientDateOfBirthAddDemo']";
+    public static final String PATIENT_REGISTRATION_GENDER_SELECT = "//*[@id='select-gender']";
+    public static final String PATIENT_REGISRATION_GENDER_LIST = "//div[contains(@class,'md-active')]/md-select-menu//md-option";
+    public static final String PATIENT_REGISTRATION_CLINICAL_INFORMATION_SECTION = "//*[@id='patient-stepper']//rxms-step-content/rxms-clinical-information/div";
+    public static final String PATIENT_REGISTRATION_CLINICAL_INFORMATION_CONFIRM_WITH_PATIENT = "//*[@id='patient-add-demo-info-radio-confirm']";
+    public static final String PATIENT_REGISTRATION_SAVE_AND_EXIT_BUTTON = "//*[@id='patient-add-button-bar-button-saveeexit']";
+    public static  final String PATIENT_REGISTRATION_PREFERENCES_SNAP_CAP = "//rxms-step-content/rxms-patient-add-preferences//div/button[2]";
+    public static final String PATIENT_REGISTRATION_PREFERENCES_SECTION = "//*[@id='patient-stepper']//rxms-step-body/rxms-step-content/rxms-patient-add-preferences";
+    public static final String PATIENT_REGISTRATION_ADDITIONAL_MEDICATIONS ="//*[@id='patient-stepper']//rxms-step-content/rxms-patient-add-additional-meds/ng-form/div";
+    public static final String PATIENT_REGISTRATION_THIRD_PARTY_PLANS = "//*[@id='no-plan-radio']";
+    public static final String PATIENT_REGISTRATION_ADDITINAL_MEDICATINOS_NO_MEDS = "//*[@id='no-add-meds-taken']";    
+public static String NoStateLocator(String id) {
+        String NoStateId = "select_option_" + id;
+        return NoStateId;
+    }
+    public static final String DE_prescribedDrug="//*[@id='product-information-content-collapsed']/rxms-rx-product-view/div/div/div/md-input-container/div[1]/textarea";
+    public static final String DE_dispensedDrug = "//*[@id='product-information-content-collapsed']/rxms-rx-product-view/div/md-input-container/div/textarea";
+    public static final String DE_rxOriginaldatepanelCollapsed = "//*[@id='product-information-content-collapsed']/rxms-rx-product-view/div/div[2]/md-input-container[1]/input[1]";
+    public static final String DE_DAWpanelCollapsed= "//*[@id='product-information-content-collapsed']/rxms-rx-product-view/div/div[2]/md-input-container[2]/input[1]";
+    public static final String DE_QtypanelCollapsed="//*[@id='product-information-content-collapsed']/rxms-rx-product-view/div/div[2]/md-input-container[3]/input[1]";
+    public static final String DE_refillpanelCollapsed ="//*[@id='product-information-content-collapsed']/rxms-rx-product-view/div/div[2]/md-input-container[4]/input[1]";
+    public static final String DE_directionspanelCollapsed="//*[@id='product-information-content-collapsed']/rxms-rx-product-view/div/div[2]/md-input-container[5]/div/textarea";
+    public static final String DE_prescriberDataCollapsed="//*[@id='prescriber-information-content-collapsed']/rxms-rx-prescriber-view/div/div[1]/div[1]/strong";
+    public static final String DE_listofPaymentTypes = "//*[contains(@class,'payment-item')]/button";
+    
+    public static final String Product_Substitute = "//*[@name='substitute']";
+	public static final String Refills_Container = "//*[@id='prescription-rx-product-create-form']/div[5]/md-input-container[3]";
+	public static final String SendToIcplus_Button = "//*[@id='prescription-sendtoicplus-button']";
+	public static final String de_Payment_Cash_Price="//*[@name='cashPriceName']";
+	public static final String rxDetailsPopup_POS_XButton = "//*[@id='close-button']";
+
+}
